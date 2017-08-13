@@ -1,0 +1,13 @@
+{
+  "STAGE": "staging",
+  "NODE_ENV": "production",
+  "PORT": 3000,
+  "BASE_URL": "http://ft.dmapper.co",
+  "MONGO_URL": "mongodb://localhost:27017/ft",
+  "REDIS_DB": 13,
+  "SESSION_SECRET": "174260657a5369h537eo581aoerw117an",
+
+  "REGISTRATION_EMAIL_SEND": false,
+
+  "TIME_ZONE": "America/Los_Angeles"
+}

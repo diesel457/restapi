@@ -1,0 +1,42 @@
+{
+    "APP": "ft",
+    "APP_NAME": "French Tuesdays",
+    "STAGE": "development",
+    "NODE_ENV": "development",
+    "PORT": 3000,
+    "BASE_URL": "http://localhost:3000",
+    "MONGO_URL": "mongodb://localhost:27017/restapi2",
+    "SESSION_SECRET": "174260657a5369h537eo572aoerw117a7",
+    "ADMINS": ["nirajmit@gmail.com", "cray0000@gmail.com",
+        "omazinov@gmail.com", "omazinov@yahoo.com", "dimarakov21@gmail.com",
+        "nirajdm@gmail.com", " julien.subit@boldbeyond.com", "ctoussaint@selaviglobal.com",
+        "taisiia.bykova@gmail.com", "pierre@frenchtuesdays.com", "gilles@frenchtuesdays.com",
+        "sdominguez@selaviglobal.com", "lupinelli@frenchtuesdays.com", "npurandare@frenchtuesdays.com",
+        "shawayms@gmail.com", "rmarty@selaviglobal.com", "ebramli@selaviglobal.com", "arahati@frenchtuesdays.com",
+        "jpermata@selaviglobal.com", "aurelien.dias@boldbeyond.com", "ctoussaint@frenchtuesdays.com"
+    ],
+    "SUPPORT_CONTACT_EMAIL": "dimarakov21@gmail.com",
+    "COPY_TO_ENV": ["NODE_ENV", "PORT", "MAILGUN_DOMAIN", "MAILGUN_KEY"],
+    "PUBLIC": ["PUBLIC", "NODE_ENV", "STAGE", "APP", "BASE_URL", "GOOGLE_PLACES_API_KEY"],
+
+    "FILESERVICE_HOST": "file-service.dmapper.co",
+    "FILESERVICE_KEY": "djcjbjgji4j4jt8vx2h",
+    "GOOGLE_BUCKET": "idgfiles",
+    "GOOGLE_PLACES_API_KEY": "AIzaSyADSkzXdjIiMd3ffiPErTyG_EX-PSprdHw",
+
+    "TIME_ZONE": "Europe/Moscow",
+
+    "MAILGUN_DOMAIN": "ft.dmapper.co",
+    "MAILGUN_KEY": "key-3f7a335c0caaa7d513589b3b49bff212",
+
+    "FACEBOOK_KEY": "1389688767749976",
+    "FACEBOOK_SECRET": "8c935bc320458c17c1d6702a630826f5",
+    "FACEBOOK_URL": "https://www.facebook.com/v2.4/dialog/oauth",
+    "FACEBOOK_FIELDS": ["id", "about", "age_range", "birthday",
+        "education", "emails", "first_name", "gender", "hometown", "languages", "last_name", "link",
+        "location", "locale", "middle_name", "timezone", "website", "work", "picture", "friends"
+    ],
+    "FACEBOOK_SCOPE": ["public_profile", "email", "user_about_me", "user_education_history",
+        "user_friends", "user_hometown", "user_location", "user_work_history", "publish_actions"
+    ]
+}

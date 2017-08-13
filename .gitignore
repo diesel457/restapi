@@ -1,0 +1,16 @@
+# System
+.DS_Store
+*.swp
+*.log
+.idea*
+
+# Node
+npm-debug.log
+node_modules
+
+# Derby
+/public/derby
+/public/img/sprites/
+/build
+/public/js/minified/*
+/bower_components

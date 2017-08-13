@@ -1,0 +1,12 @@
+{
+  "name": "ft",
+  "dependencies": {
+    "jquery": "^2.2.2"
+  },
+  "exportsOverride": {
+    "jquery": {
+      "single": "dist/jquery.min.js"
+    },
+    "*": {}
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "STAGE": "test",
+  "NODE_ENV": "development",
+  "PORT": 3003,
+  "BASE_URL": "http://localhost:3003",
+  "MONGO_URL": "mongodb://localhost:27017/ft_test",
+  "REDIS_URL": "redis://localhost:6379/3",
+  "SESSION_SECRET": "174250657a5369h537eo572aoerw117a5"
+}

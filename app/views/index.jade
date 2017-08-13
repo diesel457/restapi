@@ -1,0 +1,21 @@
+Title
+  | {{ #root._page.title || 'French Tuesdays' }}
+
+Head
+  meta(http-equiv='Content-type' content='text/html;charset=UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+  script(src='/js/vendor/facebook.js')
+
+BodyElement
+  | <div id="body" class='{{$render.ns}}'>
+  view(is='{{$render.prefix}}Body')
+  | </div>
+
+Body
+  view(is='FTToster' as='page.toster')
+  view(is='FTModal' as='page.modal')
+  view(is='FTFacebookModal' as='page.fbModal')
+  view(is='{{ $render.ns }}')
+
+Tail
+  include ../../public/img/sprites/icons.svg
