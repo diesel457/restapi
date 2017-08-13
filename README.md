@@ -1,19 +1,94 @@
-ft
-=============
-FT website
+createGroup:
+{
+  title: 'title',
+  companyIds: [ 'Company 1', 'Company 2' ],
+  paid: true or false,
+  price: number,
+  priceStamp: 'weekly', 'monthly',
+  userId: 'Id who create group'
+}
 
-## Оптимизация ресурсов
+deleteGroup:
+{
+  groupId: 'Group id for the delete group.'
+}
 
-1. Всегда предпочитайте `svg` вместо `png`. 
-2. Сжимайте `svg` через https://github.com/svg/svgo.
-3. Если все таки пришлось использовать `png`, сжимайте его через https://tinypng.com/.
-4. Фоновые и средние/большие картинки обязательно должны быть в `jpg`. Сжимайте через [`mozjpeg`](https://github.com/imagemin/mozjpeg-bin):
+getGroup:
+{
+  groupId: 'Group id for the get group.'
+}
 
-    ```bash    
-    npm i -g mozjpeg
-    mozjpeg -quality 60 -outfile seats.jpg seats.png
-    ```
+updateGroup:
+{
+  id: 'Group document id',
+  title: 'new title',
+  paid: 'new paid',
+  priceStamp: 'new price stamp'
+}
 
-## Copyright
+subscribeGroup:
+{
+  authId: 'Id who subscribe on the group',
+  groupId: 'Group id'
+}
 
-&copy; Decision Mapper. Closed licence.
+getGroupSubscribers:
+{
+  groupId: 'Group id'
+}
+
+getGroupAnalysis:
+{
+  groupId: 'Group id'
+}
+
+createAnalysis:
+{
+  img: 'path to image',
+  timestamp: 'Time Stamp',
+  groupId: 'Group Id'
+}
+
+deleteAnalysis:
+{
+  analysisId: 'Analysis Id'
+}
+
+getAnalysis:
+{
+  analysisId: 'Analysis Id'
+}
+
+updateAnalysis:
+{
+  id: 'Analysis document id',
+  img: 'new image path',
+  timestamp: 'new timestamp'
+}
+
+setAnalysisComments:
+{
+  analysisId: 'Analysis document id'
+  content: 'Text for the comment'
+  userId: 'User document id'
+}
+
+getAnalysisComments:
+{
+  analysisId: 'Analysis document id'
+}
+
+getAnalitics:
+{
+
+}
+
+getGroupsByAnaliticId:
+{
+  analiticId: 'Analitic Document id'
+}
+
+getInvestors:
+{
+  
+}
